@@ -1,0 +1,60 @@
+.budgetList {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;               
+    max-height: 80vh;
+    overflow-y: auto; 
+    padding-right: 52px; 
+    padding-left: 52px;  
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 2rem;
+    border: 2px solid #f7c7c9;
+    border-radius: 8px;
+  }
+
+  .budgetCard {
+    border: 2px solid #ed7966;   
+    border-radius: 8px;
+    background-color: #d9d9d9; 
+    padding: 1rem;
+    flex-direction: column;
+    align-items: center;  
+    max-width: 100%;
+    
+  }
+  
+  .budgetCard .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem; 
+    margin-bottom: 0.75rem;
+    font-size: 1.5rem;
+    color: #000000;
+  }
+  
+  .budgetCard .row:last-of-type {
+    margin-bottom: 1rem;
+  }
+  
+  .addSpendButton {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  .addSpendButton:hover:not(:disabled) {
+    background-color: #ed7966;
+  }
+  
+  .addSpendButton:disabled {
+    background-color: #aaa;
+    cursor: not-allowed;
+  }
+  

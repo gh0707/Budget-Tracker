@@ -1,0 +1,73 @@
+.Form {
+  display: flex;
+  flex-direction: column;
+}
+
+.formTitle {
+  font-size: 2rem;
+  font-weight: 200;
+  margin: 0.25rem 0 1rem;
+  color: #000000;
+}
+
+.budgetForm .formControls {
+  display: flex;
+  justify-content: center;
+}
+
+.formCard {
+  border: 2px solid #438dc7;
+  border-radius: 8px;
+  padding: 0.75rem 6rem 1.5rem;
+  max-width: 450px;
+  width: 100%;
+  background-color: #d9d9d9;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.budgetNameCard,
+.amountCard,
+.categoryCard {
+  margin-bottom: 1rem;
+}
+
+.budgetNameLabel,
+.amountLabel,
+.categoryLabel {
+  display: block;
+  margin-bottom: 0.4rem;
+  font-size: 1.2rem;
+  color: #000000;
+}
+
+.budgetNameInput,
+.amountInput,
+.categoryInput {
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  font-size: 1rem;
+  border: 2px solid #000000;
+  background-color: #d9d9d9;
+  color: #000000;
+  border-radius: 4px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  display: none;
+}
+
+.submitButton {
+  width: 20%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  background-color: #000000;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+.submitButton:hover {
+  background-color: #309bcc;
+}

@@ -1,0 +1,26 @@
+.Delete {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Delete button {
+    background: none;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background 0.2s;
+    
+  }
+  
+  .Delete button:hover,
+  .Delete button:focus {
+    background: rgba(0, 0, 0, 0.05);
+    outline: none;
+  }
+  
+  .Delete button:hover svg {
+    color: #e53e3e;
+  }
+  
