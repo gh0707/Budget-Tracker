@@ -11,7 +11,7 @@ import Gallery from"./components/Gallery";
 const router = createBrowserRouter([
   
   {
-    path: "/",
+    path: "",
     element: <Name/>
     // Name page (Name)
   },
